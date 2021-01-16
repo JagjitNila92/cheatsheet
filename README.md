@@ -18,7 +18,6 @@ This project is a cheatsheet for html and css basics in web development.
 * Komodo Edit
 
 ## Code Examples
-Show examples of usage:
 li a{
 	text-decoration: none;
 	color: skyblue;
