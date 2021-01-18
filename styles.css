@@ -3,6 +3,8 @@ body{
 	text-align:  center;
 	background-color: steelblue;
 	color: white;
+	margin: 0;
+	padding: 0;
 }
 
 h1{
