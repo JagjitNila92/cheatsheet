@@ -23,15 +23,13 @@ h2 {
 	text-transform: capitalize;
 }
 
-nav {
+nav ul{
 	background-color: white;
 	color: steelblue;
-}
-
-ul {
+	text-align: center;
+	width: auto;
 	display: block;
 	padding: 20px;
-	background-color: white;
 	list-style-type: none;
 	margin: 20px;
 	overflow: hidden;
