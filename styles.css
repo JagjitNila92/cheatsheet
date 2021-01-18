@@ -10,9 +10,11 @@ h1{
 	font-size: 60px;
 	font-weight: 400;
 	letter-spacing: 5px;
-	margin-bottom: 30px;
 	text-transform: uppercase;
-	margin: auto;
+	text-align: center;
+	width: inherit;
+	margin: 0 auto;
+	padding:  20px;
 }
 
 h2 {
@@ -28,11 +30,20 @@ nav ul{
 	background-color: white;
 	color: steelblue;
 	text-align: center;
-	width: auto;
+	width: 500;
 	display: block;
 	padding: 20px;
 	list-style-type: none;
-	margin: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+ul {
+	display: block;
+	padding: 20px;
+	background-color: white;
+	list-style-type: none;
+	margin: 20px;
 	overflow: hidden;
 }
 
@@ -81,4 +92,9 @@ td {
 footer{
 	color: white;
 	font-size: 10px;
+	text-align:  center;
+	border:  solid 5px white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 12px;
 }
