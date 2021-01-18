@@ -6,21 +6,20 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
+* {
+  box-sizing: border-box;
+}
 h1{
-	color: white;
 	font-size: 60px;
 	font-weight: 400;
 	letter-spacing: 5px;
 	text-transform: uppercase;
-	text-align: center;
 	width: inherit;
 	margin: 0 auto;
 	padding:  20px;
 }
 
 h2 {
-	color: white;
 	font-size: 35px;
 	font-weight: 400;
 	letter-spacing: 8px;
@@ -31,7 +30,6 @@ h2 {
 nav ul{
 	background-color: white;
 	color: steelblue;
-	text-align: center;
 	width: 500;
 	display: block;
 	padding: 20px;
@@ -92,9 +90,7 @@ td {
 }
 
 footer{
-	color: white;
 	font-size: 10px;
-	text-align:  center;
 	border:  solid 5px white;
 	border-radius: 5px;
 	display: inline-block;
